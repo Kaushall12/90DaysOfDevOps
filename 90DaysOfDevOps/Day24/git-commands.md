@@ -54,3 +54,21 @@ git log --oneline --graph --all
 
 → Visualize commit history
 
+
+
+## Undoing Changes
+
+git reset --soft HEAD~1
+→ Undo last commit but keep changes staged
+
+git reset --mixed HEAD~1
+→ Undo last commit and unstage changes
+
+git reset --hard HEAD~1
+→ Undo last commit and delete changes
+
+git revert <commit>
+→ Create a commit that reverses changes
+
+git reflog
+→ Shows all recent HEAD movements (safety recovery tool)
