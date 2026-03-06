@@ -56,7 +56,7 @@ git log --oneline --graph --all
 
 
 
-## Undoing Changes
+Undoing Changes
 
 git reset --soft HEAD~1
 → Undo last commit but keep changes staged
@@ -72,3 +72,51 @@ git revert <commit>
 
 git reflog
 → Shows all recent HEAD movements (safety recovery tool)
+
+
+
+
+
+
+
+---
+
+
+Add a new section:
+
+```markdown
+
+GitHub CLI
+
+gh auth login
+→ Authenticate GitHub account
+
+gh repo create
+→ Create GitHub repo
+
+gh repo clone
+→ Clone repo using GitHub CLI
+
+gh repo list
+→ List your repositories
+
+gh repo view
+→ View repo details
+
+gh issue create
+→ Create issue
+
+gh issue list
+→ List issues
+
+gh pr create
+→ Create pull request
+
+gh pr list
+→ List pull requests
+
+gh pr merge
+→ Merge pull request
+
+gh run list
+→ List GitHub Actions runs
