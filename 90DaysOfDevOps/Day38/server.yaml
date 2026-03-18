@@ -1,0 +1,21 @@
+server:
+  name: web-server-1
+  ip: 192.168.1.10
+  port: 8080
+
+database:
+  host: localhost
+  name: app_db
+  credentials:
+    user: admin
+    password: secret123
+
+startup_script_literal: |
+  echo "Starting application..."
+  sudo systemctl start nginx
+  sudo systemctl start docker
+
+startup_script_folded: >
+  echo "Starting application..."
+  sudo systemctl start nginx
+  sudo systemctl start docker
