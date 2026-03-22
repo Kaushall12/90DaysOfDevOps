@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 21,
+  "agentName": "KAUSHALPATEL",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus10.actions.githubusercontent.com/pLTsqYsJqmBpe26oPcuNs2aszsVSr6kyMGnPkkWevdd5ri63Cv/",
+  "gitHubUrl": "https://github.com/Kaushall12/90DaysOfDevOps",
+  "workFolder": "_work",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
